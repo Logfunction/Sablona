@@ -1,0 +1,238 @@
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #c7c7c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #030107;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header_contact{
+    display: flex;
+    flex-direction: row;
+    background-color: #6fa051;
+    width: 100%;
+    height: 55px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_contact ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 25px;    
+}
+
+.header_contact a{
+    color: rgb(238, 238, 238);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 55px;
+}   
+
+.header_contact ul:nth-child(1) li:nth-child(1){
+    background-image: url(obrazkystr/Shape\ 11\ copy.png);
+    background-repeat: no-repeat;
+    background-position: 12px;
+}
+
+.header_contact ul:nth-child(1) li:nth-child(2){
+    background-image: url(obrazkystr/Shape\ 353.png);
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
+.header_contact ul:nth-child(1) li:nth-child(3){
+    background-image: url(obrazkystr/Shape\ 361\ copy\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+.header_contact ul:nth-child(2) li:not(li:nth-child(4)){
+    padding: 0 20px;
+    border-right: 2px solid #fff;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.head_con_2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header_contact ul:nth-child(2) li:nth-child(4){
+    padding-left:20px;
+    margin-right: 0;
+} 
+
+.header_contact li{
+    padding-left: 40px;
+}
+
+.header_mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 140px;
+    align-items: center; 
+    color: rgb(1, 0, 7);
+}
+
+.header_mid ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.header_bot{
+    height: 60px;
+    background-color: #333333;
+    width: 100%;
+}
+
+.header_bot ul{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-weight: 600;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header_bot a{
+    color: #fff;
+}
+
+.srchbox{
+    height: 50px;
+    width: 450px;
+    color: #444444;
+    padding: 0 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px 0 0 3px;
+    text-align: left;
+    margin: 0;
+    border-right: 0;
+}
+
+.sub{
+    border-radius: 3px;
+    height: 50px;
+    width: 100px;
+    background-color: #99CF15;
+    border-style: none;
+    color: #fff;
+    font-weight: 900;
+    position: relative;
+    left: -7px;
+    top: 1px;
+}
+
+.container{
+    width: 1300px;
+    background-color: #fff;
+}
+
+#nab{
+    color: #99CF15;
+    padding-right: 16px;
+    background-image: url(obrazkystr/Shape\ 350\ copy\ 6.png);
+    background-repeat: no-repeat;
+    background-position: 55px 4px;
+}
+
+.textgal{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.textgal ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#obr_kos{
+    background-image: url(obrazkystr/kos.png);
+    background-color: #99CF15;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+}
+
+.obj{
+    display: flex;
+    flex-direction: row;
+}
+
+.cena{
+    position: absolute;
+    left: 1250px;
+    bottom: 1225px;
+    color: #6fa051;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.pocet{
+    background-image: url(obrazkystr/2.png);
+    background-color: #363635;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    position: relative;
+    left: 55px;
+}
+
+.registr{
+    padding: 0;
+    position: relative;
+    top: 10px;
+}
+
+.obj li{
+    padding: 0 15px;
+    color: #1d1f1d;
+}
+
+.obj li:nth-child(1){
+    border-right: 2px solid #1d1f1d;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#logo{
+    position: relative;
+    right: 15px;
+    top: 7px;
+}
