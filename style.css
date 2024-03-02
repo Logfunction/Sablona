@@ -322,3 +322,69 @@ span{
     position: relative;
     left: 20px;
 }
+
+.bonus{
+    background-color: #6fa051;
+    height: 110px;
+    position: relative;
+    bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bonus ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    width: 1300px;
+}
+
+.bonus li{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.event{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    bottom: 500px;
+    right: 101px;
+    height: 90px;
+}
+
+
+.Akce{
+    background-color: rgb(255, 81, 0);
+    color: #fff;
+    padding: 6px 12px;
+    height: 20px;
+    padding-right: 0;
+    width: 50px;
+}
+
+.Výprodej{
+    height: 20px;
+    background-color: rgb(255, 174, 0);
+    color: #fff;
+    padding: 6px 12px;
+}
+
+.Výprodej .d{
+    position: relative;
+    right: 1px;
+}
+
+.Doprava{
+    height: 20px;
+    background-color: rgb(45, 135, 33);
+    color: #fff;
+    padding: 6px 12px;
+}
+
